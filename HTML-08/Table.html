@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table{
+      border: none
+      
+    }
+    th{
+      text-align: center;
+      vertical-align: middle;
+      height: 50px;
+    }
+    td{
+      text-align: center;
+      vertical-align: middle;
+    } 
+  </style>
+  <title>Table</title>
+</head>
+<body>
+  <table border="1"  width="500px" height="300px"  bgcolor="yellow" align="center"  cellspacing="10px" cellpadding="1px" >
+   
+    <caption>Names and Course Details</caption>
+    <!-- Head of the table -->
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Duration</th>
+        <th>Phone number</th>
+      </tr>
+    </thead>
+    <!-- body of the table -->
+    <tbody>
+      <tr>
+        <td>Prasad</td>
+        <td>HTML</td>
+        <td rowspan="2">7 Days</td>        
+        <td>6300541558</td>
+      </tr>
+      <tr>
+        <td>Jagadish</td>
+        <td>CSS</td>
+       
+        <td>9951474679</td>
+      </tr>
+      <tr>
+        <td>Abhi</td>
+        <td>JAVASCRIPT</td>
+        <td>30days</td>        
+        <td>9000112707</td>
+      </tr>
+      <tr>
+        <td>Satya</td>
+        <td>React</td>
+        <td>30days</td>        
+        <td>9491828681</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Duration of React 2 Months</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
